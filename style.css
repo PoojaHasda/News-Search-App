@@ -117,3 +117,53 @@ nav {
     width: 100%;
   }
 }
+
+
+/* login and register css */
+main {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #138065;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0f6549;
+}
+p{
+  text-align: center;
+}
+
+a {
+  color: #138065;
+  text-decoration: none;
+  font-weight: bold;
+}
